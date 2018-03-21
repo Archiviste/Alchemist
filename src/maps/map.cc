@@ -1,8 +1,5 @@
 #include "map.hh"
 
-#define mapheight 16
-#define mapwidth  9
-
 MapInfo::MapInfo(const std::string filepath)
 {
   std::ifstream file_in(filepath);
